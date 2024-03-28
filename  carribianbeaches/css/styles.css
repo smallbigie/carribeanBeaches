@@ -1,0 +1,172 @@
+/* CSS Document */
+
+/* CSS Reset */
+
+
+body, img, video, header, header img, title, h1, h2, blockquote, table, nav {
+	 margin:0;
+      padding:0;
+      border:0;
+}
+
+body {
+	background-color: #D9C8B4;
+}
+
+
+img, video {
+      max-width: 75%;
+      display: block;
+}
+
+
+header {
+      top: 0;
+      background-color: #000;
+      height: 190px;
+}
+
+#hero_index {
+	background-image: url("../images/home_Beach.jpg");
+	background-size: cover;
+	width: 100%;
+	min-height: 700px;
+}
+
+
+#hero_shoalbay {
+	background-image: url("../images/ShoalBayEast.jpg");
+	background-size: cover;
+	width: 100%;
+	min-height: 600px;
+}
+
+#hero_trunkbay {
+	background-image: url("../images/trunkBayBeach.jpg");
+	background-size: cover;
+	width: 100%;
+	min-height: 600px;
+}
+
+#hero_gracebay {
+	background-image: url("../images/GraceBayBeach.jpg");
+	background-size: cover;
+	width: 100%;
+	min-height: 600px;
+}
+
+#hero_newsletter {
+	background-image: url("../images/newsletter_Beach.jpg");
+	background-size: cover;
+	width: 100%;
+	min-height: 600px;
+}
+
+
+
+
+
+header img {
+      margin: 0 auto;
+}
+
+Studio img {
+	height: 200px;
+}
+
+title {
+	text-align: center;
+}
+
+table {
+      width: 100%;
+}
+
+td{
+      padding: 10px 0;
+}
+
+label {
+      padding: 0 25;
+      font-size: 2em;
+      font-weight: bold;
+}
+
+input{
+      height: 3em;
+      width: 20em;
+      border-radius: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-size: 1.3em;
+      font-weight: bold;
+      border: 5px double;
+}
+
+
+.frmButton{
+      margin-left: 15%;
+      width: 10em;
+      background-color: #BB0000;
+}
+
+.frmButton:hover{
+      color: #fff;
+}
+
+
+#container {
+	font-size: 1.12em;
+}
+
+
+
+nav {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+nav li {
+	font-size: 1.5em;
+	text-decoration: none;
+	font-family: 'Francois One' sans-serif;
+	display: inline-block;
+}
+
+
+nav li a {
+      padding: 0.1em 0.75;
+	 display: block;
+	 text-decoration: underline;
+	 padding: 0.5em 1em;
+	 color: black
+}
+
+
+header h1 {
+	text-align: center;
+	margin-left: 10%;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+
+main {
+      clear: both;
+      background-color: #D7A568;
+      padding: 2%;
+      font-size: 1.25em;
+      font-family: 'roboto slab', serif;
+}
+
+
+footer .copyright {
+      font-size: 0.75em;
+      text-align: center;
+      color: #fff;
+      padding: 2% 4%;
+	 float: left;
+	 width: 75%
+}
